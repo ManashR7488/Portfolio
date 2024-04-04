@@ -1,27 +1,27 @@
 @font-face {
     font-family: d;
-    src: url(./font/Gilroy-Black.ttf);
+    src: url(./font/Gilroy-Black.woff2);
 }
 
 @font-face {
     font-family: e;
-    src: url(./font/Gilroy-Light.ttf);
+    src: url(./font/Gilroy-Light.woff2);
 }
 
 @font-face {
     font-family: a;
-    src: url(./font/shinecoasty-wygzz.ttf);
+    src: url(./font/shinecoasty-wygzz.woff2);
 }
 
 @font-face {
     font-family: b;
-    src: url(./font/Oh\ Beloved.ttf);
+    src: url(./font/Oh\ Beloved.woff2);
 }
 
 
 @font-face {
     font-family: c;
-    src: url(./font/sinosansregular-ayxz5.otf);
+    src: url(./font/sinosansregular-ayxz5.woff2);
 }
 
 * {
