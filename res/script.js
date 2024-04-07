@@ -137,6 +137,7 @@ tl.to(".main",{
 
 
 let menuBtn = document.querySelector(".nav-menu");
+menuBtn.innerHTML = `<i class="ri-menu-5-line"></i>`;
 let sidebar = document.querySelector(".sidemenu");
 let nav = document.querySelector(".nav");
 let drop = document.querySelector("#hero-con");

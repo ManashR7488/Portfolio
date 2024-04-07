@@ -254,7 +254,7 @@ ul.drop li {
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 665px) {
 
     .nav h3 {
         flex-direction: column;
@@ -506,7 +506,7 @@ ul.drop li {
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 665px) {
     .page1 .page1-container img {
         height: 22%;
         top: 16%;
@@ -729,7 +729,7 @@ ul.drop li {
 
 
 
-@media (max-width:640px) {
+@media (max-width:665px) {
     .page2-inner-scroll {
         text-align: center;
         font-size: 18vw;
@@ -885,7 +885,7 @@ ul.drop li {
 
 /*///////////////// page3-responsive  /////////////////////// ///  */
 
-@media (max-width:640px) {
+@media (max-width:665px) {
     .page3 .container {
         height: 90vh;
         gap: 10vw;
@@ -988,7 +988,7 @@ ul.drop li {
 
 
 
-@media (max-width:640px) {
+@media (max-width:665px) {
     .contacts h1 {
         text-align: left;
         font-size: 18vw;
@@ -1038,7 +1038,7 @@ ul.drop li {
 }
 
 
-@media (max-width:640px) {
+@media (max-width:665px) {
     .footer{
         color: #000;
         background-color:transparent;
