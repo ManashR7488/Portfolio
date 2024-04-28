@@ -43,7 +43,33 @@ loco();
 
 
 let run = gsap.timeline();
+let load = document.querySelector(".mainLoader h1");
+let loadPage = load.querySelector(".mainLoader");
 
+function loadTime() {
+  let a = 0;
+  setInterval(function () {
+    if (a < 100) {
+      a += Math.floor(Math.random() * 15);
+      load.innerHTML = a + "%";
+    } else {
+      a = 100;
+      load.innerHTML = a + "%";
+    }
+  }, 250);
+  return 0;
+}
+
+run.to(".mainLoader h1", {
+  delay: 0.5,
+  duration: 1,
+  onStart: loadTime(),
+});
+run.to(".mainLoader", {
+  y: "-102vh",
+  duration: 1,
+  delay: 2.5,
+});
 run.from(".nav h3 span", {
   delay: 0.5,
   y: -20,
