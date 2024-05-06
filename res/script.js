@@ -181,7 +181,6 @@ menuBtn.addEventListener("click", () => {
   if (menustate) {
     sidebar.style.transform = "translateX(0)";
     sidebar.style.opacity = 1;
-    menuBtn.style.borderColor = "#000";
     menuBtn.innerHTML = `<i class="ri-arrow-right-double-fill"></i>`;
     let i = document.querySelector(".ri-arrow-right-double-fill");
     i.setAttribute("class", "ri-arrow-right-double-fill zigzig");
